@@ -1,0 +1,12 @@
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/blazorProyI/Shared/bin/Debug/net5.0/blazorProyI.Shared.deps.json
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/blazorProyI/Shared/bin/Debug/net5.0/blazorProyI.Shared.dll
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/blazorProyI/Shared/bin/Debug/net5.0/ref/blazorProyI.Shared.dll
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/blazorProyI/Shared/bin/Debug/net5.0/blazorProyI.Shared.pdb
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/blazorProyI/Shared/obj/Debug/net5.0/blazorProyI.Shared.csproj.AssemblyReference.cache
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/blazorProyI/Shared/obj/Debug/net5.0/blazorProyI.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/blazorProyI/Shared/obj/Debug/net5.0/blazorProyI.Shared.AssemblyInfoInputs.cache
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/blazorProyI/Shared/obj/Debug/net5.0/blazorProyI.Shared.AssemblyInfo.cs
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/blazorProyI/Shared/obj/Debug/net5.0/blazorProyI.Shared.csproj.CoreCompileInputs.cache
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/blazorProyI/Shared/obj/Debug/net5.0/blazorProyI.Shared.dll
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/blazorProyI/Shared/obj/Debug/net5.0/ref/blazorProyI.Shared.dll
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/blazorProyI/Shared/obj/Debug/net5.0/blazorProyI.Shared.pdb

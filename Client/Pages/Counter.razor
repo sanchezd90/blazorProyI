@@ -1,0 +1,29 @@
+@page "/actividad2"
+<div class="jumbotron">
+    <img src="@Landscape1.LandscapeImage" class="img-fluid">
+    <h5 class="text-center">
+        Tipo de paisaje: @Landscape1.LandscapeType
+    </h5>
+    <blockquote class="blockquote text-center">
+        Color: <p class="mp-0">@Landscape1.LandscapeColor</p>
+        Mood: <p class="mp-0">@Landscape1.LandscapeMood</p>
+        <footer class="blockquote">
+            @Landscape1.PublicationDate.ToString("dd/MM/yyyy")
+        </footer>
+    </blockquote>
+</div>
+@code{
+    private Landscape GetLandscape(){
+        return new Landscape(){
+            LandscapeType = "Montaña",
+            LandscapeColor = "Verde",
+            LandscapeMood = "Triste",
+            LandscapeImage = "/images/img1.jpg",
+            PublicationDate = new DateTime(2021,09,20)
+        };
+    }
+
+    public Landscape Landscape1{
+        get{return GetLandscape();}
+    }
+}

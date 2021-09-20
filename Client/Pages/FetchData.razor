@@ -1,0 +1,39 @@
+﻿@page "/actividad3"
+<div class="jumbotron">
+    <div class="card-deck mb-3">
+        @foreach (var landscape in GetLandscapes())
+        {
+        <div class="card">
+            <img src="@landscape.LandscapeImage" class="img-fluid">
+            <h5 class="text-center">
+                Tipo de paisaje: @landscape.LandscapeType
+            </h5>
+            <blockquote class="blockquote">
+                Color: <p class="mp-0">@landscape.LandscapeColor</p>
+                Ánimo: <p class="mp-0">@landscape.LandscapeMood</p>
+                <footer class="blockquote">
+                    @landscape.PublicationDate.ToString("dd/MM/yyyy")
+                </footer>
+            </blockquote>
+        </div>
+        }
+    </div>
+</div>
+@code{
+    private List<Landscape> GetLandscapes(){
+        return new List<Landscape>{
+            new Landscape()
+            {
+                LandscapeType = "Montaña",LandscapeColor = "Verde",LandscapeMood = "Triste",LandscapeImage = "/images/img1.jpg",PublicationDate = new DateTime(2021,09,20)
+            },
+            new Landscape()
+            {
+                LandscapeType = "Jardín",LandscapeColor = "Verde",LandscapeMood = "Triste",LandscapeImage = "/images/img2.jpg",PublicationDate = new DateTime(2021,09,19)
+            },
+            new Landscape()
+            {
+                LandscapeType = "Bosque",LandscapeColor = "Verde",LandscapeMood = "Neutro",LandscapeImage = "/images/img3.jpg",PublicationDate = new DateTime(2021,09,18)
+            }
+        };
+    }
+}
